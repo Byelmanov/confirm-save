@@ -1,3 +1,7 @@
 {
-  "test": "test"
+  "submit": "Submit",
+
+  "header.title": "Confirm save app",
+  "register.email.label": "Enter email",
+  "register.password.label": "Create password"
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from '@mui/material';
-import { theme } from 'theme';
+import { theme } from 'theme/theme';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { IntlProvider } from 'react-intl';
 import { localizationMap, defaultLanguage } from 'localization';

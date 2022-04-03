@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  container
+  container,
 );
 
 // If you want to start measuring performance in your app, pass a function

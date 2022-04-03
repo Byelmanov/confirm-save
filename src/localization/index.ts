@@ -1,7 +1,7 @@
 import en from './messages/en.json';
 
 export const localizationMap = {
-  en
+  en,
 };
 
 export const defaultLanguage = 'en';

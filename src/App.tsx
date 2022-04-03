@@ -4,6 +4,8 @@ import { theme } from 'theme';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { IntlProvider } from 'react-intl';
 import { localizationMap, defaultLanguage } from 'localization';
+import { Routes } from 'routes';
+import { AppLayout } from 'components/app-layout';
 
 const queryClient = new QueryClient();
 
@@ -15,7 +17,11 @@ function App() {
         locale={defaultLanguage}
         defaultLocale={defaultLanguage}
       >
-        <ThemeProvider theme={theme}></ThemeProvider>
+        <ThemeProvider theme={theme}>
+          <AppLayout>
+            <Routes />
+          </AppLayout>
+        </ThemeProvider>
       </IntlProvider>
     </QueryClientProvider>
   );
